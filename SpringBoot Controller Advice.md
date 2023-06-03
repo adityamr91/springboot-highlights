@@ -45,7 +45,7 @@ public class ProductExceptionController {
 The Product Service API controller file is given below to update the Product. If the Product is not found, then it throws the ProductNotFoundException class.
 
 
-**Controller Class Throwing custom exception**
+**Controller Class Throwing Custom Exception**
 
 Import all the custom exceptions into contolller class and throw the exception and the controller advice class will take care of handling of proper exception
 ```
