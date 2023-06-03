@@ -1,6 +1,6 @@
 # SpringBoot Controller Advice and Exception Handler
 
-** Exception Classes **
+**Exception Classes**
 
 1. Custom Exception Class A
 
@@ -22,7 +22,7 @@ public class ServiceNotfoundException extends RuntimeException {
 The Controller Advice class to handle the exception globally is given below. We can define any Exception Handler methods in this class file.
 ```
 
-** ControllerAdvice Class gateway for all custom exceptions **
+**ControllerAdvice Class gateway for all custom exceptions**
 
 ```
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -45,7 +45,7 @@ public class ProductExceptionController {
 The Product Service API controller file is given below to update the Product. If the Product is not found, then it throws the ProductNotFoundException class.
 
 
-** Controller Class Throwing custom exception **
+**Controller Class Throwing custom exception**
 
 ```
 import com.tutorialspoint.demo.exception.ProductNotfoundException;
