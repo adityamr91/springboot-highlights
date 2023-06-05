@@ -9,7 +9,7 @@
 </dependency>
 ```
 
-**2. Create a config class with for the setup
+**2. Create a config class with for the setup**
 ```
 @Configuration
 @EnableRetry
@@ -17,7 +17,7 @@ public class AppConfig { ... }
 ```
 *// now all retryable annotation will be availabe for the use
 
-**3. Use Annotations in Service or Controller Class as per need
+**3. Use Annotations in Service or Controller Class as per need**
 
 ```
 @Service
