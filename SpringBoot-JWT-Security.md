@@ -1,4 +1,4 @@
-#SprintBoot security steps brief
+# SprintBoot security steps brief
 
 1. Hit /authenticate rest end using username & password in app.properties
 2. Service class will take the call from controller class and validate username & password and then geneates JWTtoken with a timestamp from the help of JWT tokenUtil.java
