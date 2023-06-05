@@ -1,6 +1,6 @@
 # SpringBoot JPA
 
-**Create Enity Class for DB Table**
+**1. Create Enity Class for DB Table**
 ```
 @Entity
 @Table
@@ -14,7 +14,7 @@ public class Employee {
  }
 ```
 
-**Create Repository Interface Passing Entity Object to Extended CrudRepo Interface**
+**2. Create Repository Interface Passing Entity Object to Extended CrudRepo Interface**
 
 ```
 @Repository
@@ -30,7 +30,7 @@ public interface EmployeeRepository extends CrudRepository<Employee, Integer>  {
 }
 ```
 
-**Create Service Class to Create Objects of Repository Class to be used by Controller Class**
+**3. Create Service Class to Create Objects of Repository Class to be used by Controller Class**
 
 ```
 @Service
@@ -64,7 +64,7 @@ public class EmployeeService {
    }
 }
 ```
-**Controller Class Doing DB Updates using Repo Objects**
+**4. Controller Class Doing DB Updates using Repo Objects**
 
 ```
 @RestController
