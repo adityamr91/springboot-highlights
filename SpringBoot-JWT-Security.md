@@ -51,7 +51,7 @@ public class JwtAuthenticationController {
 	}
 }
 ```
-**Service Class to Pass Username and Password* for Authentication**
+**Service Class to Pass Username and Password for Authentication**
 ```
 @Primary
 @Service
