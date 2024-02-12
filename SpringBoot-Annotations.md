@@ -13,8 +13,9 @@ It auto-configures the bean that is present in the classpath and configures it t
 ```
 @ComponentScan
 ```
+```
 @Configuration.
-
+```
 Stero Type Annotations : These annotations are used to create Spring beans automatically in the application context
 
 @Service
